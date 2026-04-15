@@ -1,37 +1,24 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
+# ChatConnect – Real-Time Chat Application
 
-![Demo App](https://i.ibb.co/fXmZdnz/Screenshot-10.png)
+## Overview
+ChatConnect is a full-stack real-time chat application built using the MERN stack and Socket.io. It allows users to communicate instantly with authentication and live messaging features.
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
+## Features
+- Real-time messaging using Socket.io
+- User authentication and authorization
+- Online user tracking
+- Responsive UI
 
-Some Features:
+## Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Real-time: Socket.io
 
--   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--   🎃 Authentication && Authorization with JWT
--   👾 Real-time messaging with Socket.io
--   🚀 Online user status (Socket.io and React Context)
--   👌 Global state management with Zustand
--   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
+## Installation
+1. Clone the repository
+2. Install dependencies in both client and server
+3. Run the application
 
-### Setup .env file
-
-```js
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
+## Author
+Abhiram
